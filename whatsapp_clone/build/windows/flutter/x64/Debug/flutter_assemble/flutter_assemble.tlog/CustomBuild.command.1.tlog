@@ -1,0 +1,28 @@
+^C:\USERS\DELL\DESKTOP\FLUTTER_PROJECT\WHATSAPP_CLONE\BUILD\WINDOWS\CMAKEFILES\A2DFA6997D85C98EE4A6683236845476\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\Users\DELL\Downloads\flutter_windows_3.7.7-stable\flutter PROJECT_DIR=C:\Users\DELL\Desktop\flutter_project\whatsapp_clone FLUTTER_ROOT=C:\Users\DELL\Downloads\flutter_windows_3.7.7-stable\flutter FLUTTER_EPHEMERAL_DIR=C:\Users\DELL\Desktop\flutter_project\whatsapp_clone\windows\flutter\ephemeral PROJECT_DIR=C:\Users\DELL\Desktop\flutter_project\whatsapp_clone FLUTTER_TARGET=C:\Users\DELL\Desktop\flutter_project\whatsapp_clone\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\Users\DELL\Desktop\flutter_project\whatsapp_clone\.dart_tool\package_config.json C:/Users/DELL/Downloads/flutter_windows_3.7.7-stable/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\DELL\DESKTOP\FLUTTER_PROJECT\WHATSAPP_CLONE\BUILD\WINDOWS\CMAKEFILES\7E41321F30771C60C790DD8AA9DD068A\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\DELL\DESKTOP\FLUTTER_PROJECT\WHATSAPP_CLONE\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/DELL/Desktop/flutter_project/whatsapp_clone/windows -BC:/Users/DELL/Desktop/flutter_project/whatsapp_clone/build/windows --check-stamp-file C:/Users/DELL/Desktop/flutter_project/whatsapp_clone/build/windows/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

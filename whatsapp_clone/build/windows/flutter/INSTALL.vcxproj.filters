@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\DELL\Desktop\flutter_project\whatsapp_clone\build\windows\CMakeFiles\7e41321f30771c60c790dd8aa9dd068a\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{BF40309E-019E-366B-9F81-2B77E4821B5B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
