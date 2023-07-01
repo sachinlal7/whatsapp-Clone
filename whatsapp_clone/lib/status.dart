@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'dart:io';
+import 'package:image_picker/image_picker.dart';
+
 
 class Status extends StatelessWidget {
   const Status({super.key});
@@ -10,29 +13,36 @@ class Status extends StatelessWidget {
         scrollDirection: Axis.vertical,
         child: Column(
           children: [
-            ListTile(
-              leading: Container(
-                padding: EdgeInsets.all(2),
-                decoration: BoxDecoration(
-                    border:
-                        Border.all(color: Color.fromARGB(255, 18, 140, 126)),
-                    shape: BoxShape.circle,
-                    boxShadow: [
-                      BoxShadow(
-                          blurRadius: 2,
-                          color: Colors.grey.withOpacity(0.3),
-                          spreadRadius: 2)
-                    ]),
-                child: CircleAvatar(
-                  radius: 30,
-                  backgroundImage: AssetImage('assets/images/john.jpg'),
+            GestureDetector(
+              onTap: () {
+              
+              
+                
+              },
+              child: ListTile(
+                leading: Container(
+                  padding: EdgeInsets.all(2),
+                  decoration: BoxDecoration(
+                      border:
+                          Border.all(color: Color.fromARGB(255, 18, 140, 126)),
+                      shape: BoxShape.circle,
+                      boxShadow: [
+                        BoxShadow(
+                            blurRadius: 2,
+                            color: Colors.grey.withOpacity(0.3),
+                            spreadRadius: 2)
+                      ]),
+                  child: CircleAvatar(
+                    radius: 30,
+                    backgroundImage: AssetImage('assets/images/john.jpg'),
+                  ),
                 ),
+                title: Text(
+                  'My Status',
+                  style: TextStyle(fontWeight: FontWeight.w500),
+                ),
+                subtitle: Text('Today at 12:57 am'),
               ),
-              title: Text(
-                'My Status',
-                style: TextStyle(fontWeight: FontWeight.w500),
-              ),
-              subtitle: Text('Today at 12:57 am'),
             ),
             Align(
                 alignment: Alignment.topLeft,
